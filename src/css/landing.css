@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.landing {
+  margin: auto;
+  width: 480px;
+  min-height: 100svh;
+  border: 1px solid black;
+}
+
+.landing h1,
+.landing h2 {
+  text-align: center;
+}
+
+.landing h1 {
+  margin-top: 2rem;
+  font-size: 40px;
+}
+
+.landing p {
+  text-align: center;
+  padding: 0 2.5rem 1rem;
+  font-size: 20px;
+}
+
+.signin-button,
+.signup-button {
+  margin-top: 2rem;
+  border: 1px solid black;
+}
+
+.landing a {
+  display: block;
+  width: 70%;
+  margin: 1rem auto;
+  padding: 10px;
+  border: 1px solid black;
+  text-align: center;
+  text-decoration: none;
+}
+
+.landing a:visited {
+  color: black;
+}

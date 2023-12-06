@@ -1,0 +1,68 @@
+.directions {
+  width: 480px;
+  border: 1px solid black;
+  margin: auto;
+  position: relative;
+  padding-bottom: 85px;
+}
+
+.directions .left,
+.directions .bookmark {
+  width: 25px;
+  height: 25px;
+  margin: auto;
+}
+
+.directions .left {
+  margin: 20px 15px 15px;
+  display: inline;
+}
+
+.directions .bookmark {
+  position: absolute;
+  right: 0;
+  margin: 20px 15px 15px;
+  display: inline;
+}
+
+.recipe {
+  border: 1px solid black;
+  /* margin: 2% 2% 3% 2%; */
+  padding: 1rem;
+  width: 95%;
+  border-radius: 5px;
+  margin: 0 auto 20px;
+}
+
+.recipe h1 {
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+}
+
+.recipe img {
+  width: 300px;
+  height: 300px;
+  border: 1px solid black;
+  display: block;
+}
+
+.dire {
+  margin: auto;
+  border: 1px solid black;
+  min-height: 400px;
+  width: 95%;
+  border-radius: 10px;
+  padding-bottom: 2rem;
+}
+
+.dire h3 {
+  padding: 1rem;
+}
+
+.dire h4 {
+  padding: 0 1.5rem;
+}
+
+.dire p {
+  padding: 0 30px;
+}
